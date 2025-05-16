@@ -11,12 +11,14 @@ Module 9 Advance Programming 2024/2025
 ### Deployment Diagram
 ![Deployment Diagram](img/DeploymentDiagram.png)
 
+## Deliverable G.2
 ### Future Context Diagram
 ![Future Container Diagram](img/FutureContextDiagram.png)
 
 ### Future Container Diagram
 ![Future Deployment Diagram](img/FutureContainerDiagram.png)
 
+## Deliverable G.3
 ### Risk Analysis & Architecture Modification Justification
 Pada arsitektur yang sekarang terdapat beberapa risiko/kekurangan yang terdapat pada aplikasi. Risiko yang pertama adalah arsitektur yang bersifat *monolith* parsial akibatnya terdapat *coupling* yang tinggi antar modul yang bersangkutan. Akibat *coupling* tersebut perubahan satu modul dapat memicu bug di modul lainnya dan jika ingin dilakukan *scaling* maka ketiga modul tidak dapat di-*scale* terpisah. Risiko ini kami klasifikasikan sebagai menengah-tinggi karena dalam jangka panjang jika terdapat banyak pengguna dan kode perlu diperluas maka baru timbul masalah yang berkaitan.
 
@@ -28,6 +30,7 @@ Risiko yang ketiga adalah tidak adanya sistem *asynchronous message queue*. Saat
 Pada *future architecture* kami menambahkan modul **Report Service** yang diharapkan dapat meningkatkan kemampuan analitik dan pelaporan sistem keseluruhan aplikasi. Perubahan ini memitigasi risiko 2 secara langsung. Dengan ini, data laporan mengenai penjualan, pembayaran, produk, dll dapat diolah secara terpusat. Selain itu modul ini juga mengandung fitur-fitur untuk menganalisis kinerja bisnis yang dapat membantu pembuatan keputusan bisnis. Lalu dengan modul ini, setiap modul tidak perlu melakukan loggingnya tersendiri, melainkan dapat diserahkan terhadap modul ini secara keseluruhan (asalkan implementasi benar).
 
 ---
+## Individual Works
 ### Pelanggan Service
 > Ahmad Dzulfikar As-Shavy - 2306152374
 #### Component Diagram
