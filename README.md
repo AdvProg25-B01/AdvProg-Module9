@@ -29,6 +29,7 @@ Pada *future architecture* kami menambahkan modul **Report Service** yang dihara
 
 ---
 ### Pelanggan Service
+> Ahmad Dzulfikar As-Shavy - 2306152374
 #### Component Diagram
 ![image](https://github.com/user-attachments/assets/65ea0fa8-3038-4ede-b520-53c6ea7a5a6f)
 
@@ -36,7 +37,20 @@ Pada *future architecture* kami menambahkan modul **Report Service** yang dihara
 ![CustomerDiagram](https://github.com/user-attachments/assets/a5d36d0d-05be-4b23-a37b-6ba8be212854)
 
 ---
+### Product Service - Transaksi
+> Siti Shofi Nadhifa - 2306152172
+#### Component Diagram
+![Component Transaksi](/img/componentdiagram-transaction.png)
 
+#### Code Diagram
+![Code Transaksi](/img/codediagram-transaction.png)
+
+### Product Service - Payment
+> Mirfak Naufal Pratama Putra - 2306244961
+#### Code Diagram
+![Code Payment](/img/payment.png)
+
+---
 
 Task distribution:
 - Context Diagram (Deliverable G.1): Siti Shofi Nadhifa
