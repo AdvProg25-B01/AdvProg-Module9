@@ -51,6 +51,14 @@ Pada *future architecture* kami menambahkan modul **Report Service** yang dihara
 ![Code Payment](/img/payment.png)
 
 ---
+### Supplier Service
+> Edmond Christian - 2306208363
+#### Component Diagram
+![ComponentSupplierServiceDiagram1.png](img/ComponentSupplier.png)
+
+#### Code Diagram
+![CodeSupplierServiceDiagram1.png](img/CodeSupplier.png)
+---
 
 Task distribution:
 - Context Diagram (Deliverable G.1): Siti Shofi Nadhifa
