@@ -50,6 +50,14 @@ Pada *future architecture* kami menambahkan modul **Report Service** yang dihara
 #### Code Diagram
 ![Code Payment](/img/payment.png)
 
+### Product Service - Product
+> Raja Rafael Pangihutan Sitorus - 2306244923
+#### Component Diagram
+![Component Product](/img/Raja_Component_Diagram.png)
+
+#### Code Diagram
+![Code Product](/img/Raja_Code_Diagram.png)
+
 ---
 ### Supplier Service
 > Edmond Christian - 2306208363
