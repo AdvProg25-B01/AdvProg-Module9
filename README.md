@@ -27,6 +27,16 @@ Risiko yang ketiga adalah tidak adanya sistem *asynchronous message queue*. Saat
 
 Pada *future architecture* kami menambahkan modul **Report Service** yang diharapkan dapat meningkatkan kemampuan analitik dan pelaporan sistem keseluruhan aplikasi. Perubahan ini memitigasi risiko 2 secara langsung. Dengan ini, data laporan mengenai penjualan, pembayaran, produk, dll dapat diolah secara terpusat. Selain itu modul ini juga mengandung fitur-fitur untuk menganalisis kinerja bisnis yang dapat membantu pembuatan keputusan bisnis. Lalu dengan modul ini, setiap modul tidak perlu melakukan loggingnya tersendiri, melainkan dapat diserahkan terhadap modul ini secara keseluruhan (asalkan implementasi benar).
 
+---
+### Pelanggan Service
+#### Component Diagram
+![image](https://github.com/user-attachments/assets/65ea0fa8-3038-4ede-b520-53c6ea7a5a6f)
+
+#### Code Diagram
+![CustomerDiagram](https://github.com/user-attachments/assets/a5d36d0d-05be-4b23-a37b-6ba8be212854)
+
+---
+
 
 Task distribution:
 - Context Diagram (Deliverable G.1): Siti Shofi Nadhifa
